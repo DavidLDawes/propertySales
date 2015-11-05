@@ -21,10 +21,10 @@ angular.module('propTypeMapApp')
       // success
       $scope.sale = sale[0];
       if ($scope.sale.principal_use == 6) {
-        $scope.sale.use == "single family residential";
+        $scope.sale.use = "single family residential";
       }
       if ($scope.sale.principal_use == 0) {
-        $scope.sale.use == "single family residential";
+        $scope.sale.use = "single family residential";
       }
     }, function(errResponse) {
       // fail
